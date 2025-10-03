@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Final Project – Wyn</title>
+  <meta name="description" content="A simple semantic HTML5 page that meets the final project requirements." />
+</head>
+<body>
+  <header>
+    <h1>Giới thiệu về tôi</h1>
+    <nav aria-label="Liên kết nhanh">
+      <a href="#about">Giới thiệu</a> |
+      <a href="#hobbies">Sở thích</a> |
+      <a href="#gallery">Bộ sưu tập</a> |
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main id="about">
+    <article>
+      <h2>Xin chào!</h2>
+      <p>Mình là Wyn, sinh viên CNTT yêu thích web và phần mềm. Hiện tại đang học tại Đại học Phenikaa và học web trên Coursera.</p>
+    </article>
+
+    <section id="hobbies" aria-labelledby="hobbies-title">
+      <h2 id="hobbies-title">Sở thích của mình</h2>
+      <!-- Yêu cầu: 1 danh sách ≥ 3 mục -->
+      <ul>
+        <li>Lập trình web (HTML, CSS, JavaScript)</li>
+        <li>Nhiếp ảnh & chỉnh sửa ảnh</li>
+        <li>Đọc sách công nghệ</li>
+      </ul>
+    </section>
+
+    <section id="gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Bộ sưu tập ảnh</h2>
+      <!-- Yêu cầu: ≥ 3 ảnh -->
+      <figure>
+        <img src="https://picsum.photos/id/1015/600/350" alt="Phong cảnh núi và hồ nước">
+        <figcaption>Chuyến đi núi</figcaption>
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/id/1025/600/350" alt="Chú chó màu nâu nhìn vào máy ảnh">
+        <figcaption>Bạn nhỏ đáng yêu</figcaption>
+      </figure>
+      <figure>
+        <img src="https://picsum.photos/id/1041/600/350" alt="Thành phố về đêm với ánh đèn">
+        <figcaption>Đêm thành phố</figcaption>
+      </figure>
+    </section>
+
+    <aside>
+      <h2>Mẹo nhỏ</h2>
+      <p>Bấm vào các liên kết ở thanh điều hướng để nhảy nhanh đến từng phần.</p>
+    </aside>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Liên hệ</h2>
+      <p>Gửi email cho mình tại <a href="mailto:wyn@example.com">wyn@example.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; from wyn - 24104502 Phenikaa University.</p>
+  </footer>
+</body>
+</html>
